@@ -17,11 +17,19 @@
     "nextjs"
   ],
   "author": "yosefleanb@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosefBlandin/useintersectionobserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YosefBlandin/useintersectionobserver/issues"
+  },
+  "homepage": "https://github.com/YosefBlandin/useintersectionobserver#readme"
 }
