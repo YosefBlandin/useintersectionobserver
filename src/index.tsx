@@ -55,6 +55,7 @@ export const useIntersectionObserver = ({
           observer?.unobserve(targetCurrent)
       }
     }
+    return
   }, [])
 
   return entries

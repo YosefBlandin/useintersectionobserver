@@ -2,10 +2,12 @@
   "name": "@yosefblandin/react-intersection-observer",
   "version": "1.0.0",
   "description": "A tool created for developers that makes easier the way of adding intersection observer to their elements in React JS",
-  "main": "index.tsx",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p ."
   },
+
   "keywords": [
     "useIntersectionObserver",
     "intersectionObserver",
@@ -22,7 +24,8 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.14"
+    "@types/react": "^18.0.14",
+    "typescript": "^4.7.4"
   },
   "repository": {
     "type": "git",
