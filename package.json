@@ -1,5 +1,5 @@
 {
-  "name": "useintersectionobserver",
+  "name": "intersection-observer-hook",
   "version": "1.0.0",
   "description": "A tool created for developers that makes easier the way of adding intersection observer to their elements in React JS",
   "main": "index.tsx",
